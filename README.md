@@ -21,21 +21,6 @@ The data set includes information about:
 
 # Standard Exploratory Data Analysis
 - Statistical summary of each column: numerical and categorical features 
-- Univariate analysis: no outlier is detected in numerical features but imbalance ratio between categorical features  
-- Bivariate analysis: using `Churn` as predictor 
-- Multivariate analysis: using `Churn` as predictor
+- Analysis to find high-quantity data with univariate, bivariate, and multivariate with `Churn` as predictor 
+- Use deep dive questions to find high-quality data
 
-# Conclusion Finding EDA:
-- Each categorical shows churn rate is always there with high user churn rate
-- Most users with Month-to-month contract and Fiber optic Internet Service are churned
-- Correlation netween numerical features and churn is quite strong
-
-# Deep Dive Questions
-- How is monthly count user per gender according to churn?
-- How is user counted with `Internet service` and how big the ration between `Churn` YES or NO?
-- How does does `PaymentMethod` and `InternetService` type affect churn?
-
-# Conclusion Deep Dive Questions
-- Monthly distribution by `gender` between `tenure` and `churn` YES and NO is similiar and no significant difference
-- `Churn` YES or NO, user are coming from people with partner either with or without fiber optic the difference/ratio is not high
-- In `PaymentMethod` shows electronical check with Fiber optic is likely to `Churn`
